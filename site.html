@@ -1,96 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <style type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    body {
-      font-size: 20px;
-    }
-      a:visited, a {
-        color: Maroon;
-        text-decoration: none;
-      }
-      a:hover {
-        color: green;
-      }
-      .hov:hover {
-        color: green;
-      }
-    nav {
-      background-color: white;
-      position: sticky;
-      top: 0;
-      text-align: center;
-      font-size: 1.5rem;
-      border-bottom-style: solid;
-      border-bottom-width: thin;
-      border-bottom-color: green;
-      background-color: rgba(0, 255, 0, 0.25);
-     }
-     header {
-      text-align: center;
-     }
-     footer {
-      border-top-style: solid;
-      border-top-width: thin;
-      border-top-color: green;
-     }
-     .sub {
-      border-top-style: solid;
-      border-left-style: solid;
-      border-width: 4px;
-      border-color: green;
-      background-color: rgba(0, 255, 0, 0.25);
-      margin-top: 100px;
-      margin-bottom: 0px;
-     }
-     .image {
-      padding: 4px;
-      background-color: rgba(0, 255, 0, 0.25);
-     }
-
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <title>Мой сайт-визитка</title>
   </head>
-  <body>
-    <header>
-      <nav>
+  <body class="body">
+    <header class="header">
+      <nav class="nav">
       <a href="#About me">Обо мне</a>
       <a href="#Education">Образование</a>
       <a href="#Experience">Опыт работы</a>
       <a href="#Hobby">Хобби</a>
     </nav>
       <h1 class="hov">Артём Поляченко</h1>
-      <img class="image" src="photo.jpeg" alt="Моё фото" width="150">
-      <p>Родился в обычной семье в городе Волгодонске.<br> Меня очень заинтересовало программирование, поэтому решил учиться.</p>
+      <img class="image img" src="photo.jpeg" alt="Моё фото" width="150">
+      <p class="font-reg">Родился в обычной семье в городе Волгодонске.<br> Меня очень заинтересовало программирование, поэтому решил учиться.</p>
     </header>
     <main>
     <h2 id="About me" class="sub">Обо мне</h2>
-    <p>В 2017 году закончил школу и пошёл учиться в техникум на специальность 
+    <p class="font-reg">В 2017 году закончил школу и пошёл учиться в техникум на специальность 
       <em>"Электромонтёр охранно-пожарной сигнализации"</em>.
     </p>
     <h2 id="Education" class="sub">Образование</h2>
-    <p>Моя специальность подразумевает установку и обслуживание охранно-пожарных датчиков и сигнализацию.</p>
+    <p class="font-reg">Моя специальность подразумевает установку и обслуживание охранно-пожарных датчиков и сигнализацию.</p>
     <h2 id="Experience" class="sub">Опыт работы</h2>
-    <p>Опыта работы по моей специальности у меня мало так как в моём городе почти нет вакансий на мою профессию, а практики за время учёбы было мало.</p>
+    <p class="font-reg">Опыта работы по моей специальности у меня мало так как в моём городе почти нет вакансий на мою профессию, а практики за время учёбы было мало.</p>
     <h2 id="Hobby" class="sub">Хобби</h2>
-    <p>Я увлекаюсь компьютерами. Могу собрать компьютер из комплектующих, разбираюсь в операционной системе <em>Windows</em>.</p>
+    <p class="font-reg">Я увлекаюсь компьютерами. Могу собрать компьютер из комплектующих, разбираюсь в операционной системе <em>Windows</em>.</p>
     <h2 class="sub">Как я становился разработчиком</h2>
-    <p>Мне очень нравится сфера программирования, я даже начал учить Python в мобильных приложениях на бесплатных курсах.
-      <ul>
+    <p class="font-reg">Мне очень нравится сфера программирования, я даже начал учить Python в мобильных приложениях на бесплатных курсах.
+      <ul class="font-reg">
         <li>15 июля я увидел в рекламе IT-рентген и решил пройти тест</li>
         <li>19 июля я купил курс Frontend-разработчик и начал учиться</li>
         <li>25 июля я создал мой первый сайт, на котором мы сейчас</li>
       </ul>
     </p>
     </main>
-    <footer>
-      <a href="тест.html" title="Каталог"></a>
-      <strong>Контакты:</strong> 
+    <footer class="footer font-reg">
+      <strong>Контакты:</strong>
       Телефон: +79848234838 
       <a href="https://e.mail.ru/inbox/?utm_source=portal&utm_medium=portal_navigation&utm_campaign=e.mail.ru" title="polya-art@mail.ru" target="_blank">Электронная почта</a>
       <a href="https://vk.com/feed" title="Вк" target="_blank">Вконтакте</a>
